@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 7
+   Coding Challenge 3
+   
+   Author: Thomas Hendren 
+   Date:  11/22/2020
+   Filename: code7-3_valid.css
+
+*/
+input:focus, select:focus {
+  background-color: yellow;
+}
+
+input:invalid {
+  color: red;
+  border-color: red;
+  box-shadow: 0px 0px 5px red;
+}
